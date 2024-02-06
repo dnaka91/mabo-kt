@@ -1,0 +1,14 @@
+[versions]
+dokka = "1.9.10"
+kotlin = "1.9.22"
+kover = "0.7.5"
+ktlint = "1.1.1"
+spotless = "6.23.3"
+
+[libraries]
+
+[plugins]
+dokka = { id = "org.jetbrains.dokka", version.ref = "dokka" }
+kotlin = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
+kover = { id = "org.jetbrains.kotlinx.kover", version.ref = "kover" }
+spotless = { id = "com.diffplug.spotless", version.ref = "spotless" }
